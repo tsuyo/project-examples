@@ -2,14 +2,14 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: my_github
-      path: jfrog/jfrog-pipelines-simple-example
+      gitProvider: tsuyo_github
+      path: tsuyo/jfrog-pipelines-simple-example
       branches:
-        include: master
+        include: tsuyo
   - name: myBuildInfo
     type: BuildInfo
     configuration:
-      sourceArtifactory: art
+      sourceArtifactory: artifactory
       buildName: SampleApp
       buildNumber: 1          
 pipelines:  
