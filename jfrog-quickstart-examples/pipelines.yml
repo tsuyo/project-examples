@@ -3,7 +3,7 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: tsuyo_github
-      path: tsuyo/jfrog-pipelines-simple-example
+      path: tsuyo/project-examples
       branches:
         include: tsuyo
   - name: myBuildInfo
